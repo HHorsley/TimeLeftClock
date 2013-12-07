@@ -6,13 +6,15 @@
 	<link href="http:////cdn.jsdelivr.net/foundation/5.0.2/css/foundation.css" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TimeLeft Clock</title>
+  <title>TimeLeft</title>
 
   <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="apple-touch-icon" href="timeLeftIcon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css">
@@ -22,17 +24,15 @@
   <style>
     
     body {
-      background-image:url('texture-8.jpg');
+      background-image:url('texture-8-trans.jpg');
+      background-size: contain;
     }
 
     .container {
       max-width:100%; 
       width: 100%;
-      height:1136px;
       margin: 0px auto ;
       position: absolute;
-      background-color: rgba(235, 235, 235, 0.65);
-
     }
 
     .headline {
@@ -40,10 +40,10 @@
     margin: 10% auto 0%;
     }
 
-   h1 {
-    color: #2B2B2A;
-    font-weight: bold;
-    }
+     h1 {
+      color: #2B2B2A;
+      font-weight: bold;
+      }
 
     h2 {
       color: #2B2B2A;
